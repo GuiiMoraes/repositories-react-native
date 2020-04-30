@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "npm-run-all -p dev:*",
-    "dev:android": "react-native run-android",
+    "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "dev:start": "react-native start",
+    "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -29,7 +28,6 @@
     "eslint": "^6.8.0",
     "jest": "^25.2.7",
     "metro-react-native-babel-preset": "^0.59.0",
-    "npm-run-all": "^4.1.5",
     "react-test-renderer": "16.11.0"
   }
 }
